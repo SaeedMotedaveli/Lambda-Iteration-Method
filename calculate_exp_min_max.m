@@ -1,5 +1,5 @@
 % calculate_exp_min_max.m
-% @author Saeed Motedaveli (9415624)
+% @author Saeed Motedaveli
 
 function exp_matrix = calculate_exp_min_max(min_max)
 % Compare max with min
