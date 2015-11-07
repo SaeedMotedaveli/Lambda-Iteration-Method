@@ -1,5 +1,5 @@
 % calculate_power.m
-% @author Saeed Motedaveli (9415624)
+% @author Saeed Motedaveli
 
 % this m.file calculate power of every power station and print it.
 syms x;
