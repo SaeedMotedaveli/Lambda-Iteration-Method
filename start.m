@@ -1,5 +1,5 @@
 % start.m
-% @author Saeed Motedaveli (9415624)
+% @author Saeed Motedaveli
 
 clc;
 
