@@ -1,5 +1,5 @@
 % power_progress.m
-% @author Saeed Motedaveli (9415624)
+% @author Saeed Motedaveli
 
 lambda_min_max = zeros(num, 2);
 
