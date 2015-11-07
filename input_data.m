@@ -1,5 +1,5 @@
 % input_data.m
-% @author Saeed Motedaveli (9415624)
+% @author Saeed Motedaveli
 
 % **************** Sample data 1 ***************
 
