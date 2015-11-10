@@ -42,16 +42,16 @@ end
 % [Finglish]: analize dade hye voroodi:
 if ~isPrLessThanMinOrMax
     power_progress();
+    
+    % Final Check
+    final_check();
 end
-
-% Final Check
-final_check();
 
 % [Finglish]: rasm nemoodar
 for i =  1 : num
     subplot(1, num, i);
     plot(eval(['p', int2str(i)]), eval(['lambda', int2str(i)]));
-    title(['P = ', num2str(P(i))]);
+    title(['P', int2str(i),' = ', num2str(P(i))]);
     xlabel('P (MW)');
     ylabel('λ');
     ylim([plot_min_y plot_max_y]);
