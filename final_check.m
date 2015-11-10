@@ -1,7 +1,7 @@
 % final_check.m
 % @author Saeed Motedaveli
 
-if power_sum < Pr
+if (power_sum + err) < Pr
     arg = 0;
     for i = 1 : num
         if P(i) == eval(['p', int2str(i), '(1)'])
@@ -22,7 +22,7 @@ if power_sum < Pr
     
 end
 
-if power_sum > Pr
+if (power_sum - err) > Pr
     arg = 0;
     for i = 1 : num
         if P(i) == eval(['p', int2str(i), '(length(p', int2str(i), '))'])
